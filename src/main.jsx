@@ -5,7 +5,7 @@ import { HookApp } from './HookApp'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
+  // <React.StrictMode>
     <HookApp />
-  </React.StrictMode>,
+  // </React.StrictMode>,
 )
