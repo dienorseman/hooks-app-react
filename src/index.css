@@ -1,8 +1,13 @@
 body {
     padding: 20PX;
-    background-color: rgb(255, 234, 236);
+    background-color: rgb(54, 52, 52);
+}
+
+h1 {
+    color: aliceblue;
 }
 
 button {
     margin-right: 10px;
+    background-color: bisque;
 }
