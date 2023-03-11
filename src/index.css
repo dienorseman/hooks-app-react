@@ -1,13 +1,30 @@
 body {
-    padding: 20PX;
-    background-color: rgb(54, 52, 52);
+  padding: 20px;
+  background-color: rgb(54, 52, 52);
 }
 
 h1 {
-    color: aliceblue;
+  color: aliceblue;
+}
+
+hr {
+  color: whitesmoke;
+}
+
+p {
+  color: azure;
+}
+
+li {
+  color: aliceblue;
+}
+
+ul {
+  list-style-image: url("https://www.flaticon.com/free-icon/paws_4225928");
+  margin-right: 8px;
 }
 
 button {
-    margin-right: 10px;
-    background-color: bisque;
+  margin-right: 10px;
+  background-color: bisque;
 }

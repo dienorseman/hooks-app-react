@@ -12,6 +12,7 @@ export const useCounter = ( initialValue = 10, times = 10 ) => {
     }
 
     const decrement = () => {
+        if ( counter <= 1 ) return;
         setCounter( counter - times )
     }
 
