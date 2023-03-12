@@ -17,6 +17,8 @@ p {
 
 li {
   color: aliceblue;
+  /* background-color: aqua; */
+  margin-top: 20px;
 }
 
 ul {
@@ -24,7 +26,35 @@ ul {
   margin-right: 8px;
 }
 
+ol {
+  display: flex;
+  flex-direction: column;
+}
+
 button {
   margin-right: 10px;
   background-color: bisque;
+}
+
+@media (max-width: 600px) {
+  li {
+  color: aliceblue;
+  width: 340px;
+  /* background-color: aqua; */
+  margin-top: 20px;
+}
+
+ul {
+  list-style-image: url("https://www.flaticon.com/free-icon/paws_4225928");
+  margin-right: 8px;
+}
+
+ol {
+  /* background-color: red; */
+  height: 530px;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  width: 390px;
+}
 }
