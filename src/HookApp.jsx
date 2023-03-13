@@ -6,7 +6,7 @@ import { MultipleCustomHooks } from "./03-examples/MultipleCustomHooks";
 
 export const HookApp = () => {
     return (
-        <div>
+        <div className="mainApp"> 
             {/* <CounterApp /> */}
             {/* <CounterWithCustomHook /> */}
             {/* <SimpleForm /> */}
