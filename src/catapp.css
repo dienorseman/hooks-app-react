@@ -1,0 +1,133 @@
+body {
+  padding: 20px;
+  background-color: white;
+  height: 100vh;
+  max-width: 100%;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.mainApp {
+  /* background-color: red; */
+  height: 90vh;
+  overflow-y: hidden;
+}
+
+h1 {
+  margin-left: 2rem;
+  color: rgb(54, 52, 52);
+}
+
+hr {
+  color: rgb(54, 52, 52);
+}
+
+p {
+  color: rgb(54, 52, 52);
+}
+
+li {
+  color: rgb(54, 52, 52);
+  /* background-color: aqua; */
+  margin-top: 20px;
+  padding-right: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.cat-paw {
+  height: 20px;
+  width: 20px;
+  margin-right: 1rem;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  /* background-color: yellow; */
+  max-height: 250px;
+  overflow-y: scroll;
+}
+
+ol {
+  display: flex;
+  flex-direction: column;
+  /* background-color: yellow; */
+  max-height: 250px;
+  overflow-y: scroll;
+}
+
+ol::-webkit-scrollbar {
+  width: 12px;
+}
+
+ol::-webkit-scrollbar-track {
+  background-color: transparent;
+  border: 1.5px solid #7e7e7e;
+  border-radius: 8px;
+}
+
+ol::-webkit-scrollbar-thumb {
+  background-color: #f1f1f1;
+  border: 2px solid #616161;
+  border-radius: 8px;
+}
+
+.button-container-center {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  margin-right: 10px;
+  background-color: bisque;
+}
+
+@media (max-width: 600px) {
+
+  body {
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  .mainApp {
+
+    height: 650px;
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+  }
+
+
+  li {
+    color: aliceblue;
+    width: 340px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    min-height: 100px;
+  }
+
+  li p {
+    text-align: justify;
+    font-size: small;
+  }
+
+  ul {
+    height: 920px;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    width: 390px;
+  }
+
+  ol {
+
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    width: 390px;
+  }
+}
